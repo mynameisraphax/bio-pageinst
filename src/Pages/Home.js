@@ -25,7 +25,6 @@ function Home() {
       audio.play().catch(error => console.error('Audio playback failed:', error));
     };
   
-    // Tentar tocar áudio com interação do usuário
     const handleUserInteraction = () => {
       playAudio();
       document.removeEventListener('click', handleUserInteraction);

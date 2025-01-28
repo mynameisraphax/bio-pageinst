@@ -45,7 +45,7 @@ function Home() {
         <img src={img} alt="raphax" className="profile-image" />
         <h3>@byraphathedev</h3>
         <h1 className="title">Raphael "ByraphaX" Pereira <FaLaptopCode /></h1>
-        <p>Desenvoledor Front-End | devOps | DBA | Técnico & Analista TI</p>
+        <p>Desenvolvedor Front-End | devOps | DBA | Técnico & Analista TI</p>
         <div className="links">
           {links.map((link, index) => (
             <a key={index} href={link.url} target="_blank" rel="noopener noreferrer" className="link-button">
